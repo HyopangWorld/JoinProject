@@ -1,0 +1,17 @@
+.title{
+  width:255px; height: 115px;}
+.menubar{
+  width:1298px; height:40px;
+  background-color: #003399;
+  border-style: solid; border-width: medium;border-color: #003399;
+  font-family: 나눔고딕;}
+  .login_bar{
+    font-family:나눔고딕; font-size: 11pt; width:300px;
+  }
+.menu{padding:45px;}
+  .menu:link { color: white; text-decoration: none;}
+  .menu:visited { color: white; text-decoration: none;}
+  .menu:hover { color: #8e8989; text-decoration: none;}
+  .login_bar:link { color: #8e8989; text-decoration: none;}
+  .login_bar:visited { color: #8e8989; text-decoration: none;}
+  .login_bar:hover { color: #444343; text-decoration: none;}
