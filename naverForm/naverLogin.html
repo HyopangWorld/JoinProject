@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NAVER로그인</title>
+    <style type="text/css">
+    body{
+      font-family: 나눔고딕; color: #625e5e; font-size: 9pt;
+      padding-left: 1%;padding-top: 12%;}
+    .field{
+      width: 360px;
+      border-width: thin;border-style: solid;border-color: #cdc7c7;
+      padding: 10px; padding-top: 15px;}
+    .btn1{
+      border-color: #cdc7c7;border-style: solid; border-width: thin;
+      padding-bottom: 0px;padding-top: 0px;padding-left: 6px;padding-right: 6px;}
+    .btn{
+      border-width: thin; border-style: none;
+      vertical-align: middle;
+      background-color: #2bb600;
+      width:75px; height:80px;
+      font-size: 10pt;color: white; font-weight: bold; font-family: 고딕;}
+    .ipBtn{
+      background-color: white;
+      border-width: medium; border-style:groove; color: #625e5e;
+      width:29px; height:15px;padding: 0px; margin-left:3px;
+      font-size:7pt; font-family:Franklin Gothic Heavy;
+      vertical-align: middle;}
+     a:link { color: #625e5e; text-decoration: none;}
+     a:visited { color: #625e5e; text-decoration: none;}
+     a:hover { color: #625e5e; text-decoration: underline;}
+     .txtBox{
+       width:155px; height:35px;
+       border-width:thin; border-style:solid; border-color:#d9d9d9;
+       background-color:#f6f6f6;}
+    </style>
+  </head>
+  <body>
+    <table class="field" align ="center"><tr><td>
+      <form action="naverLogin_result.php" method="post">
+        <table><tr>
+          <td style="width:100px; height:0px;"><input  class="txtBox" type="text" name="user_id" placeholder="아이디" ></input></td>
+          <td rowspan="2" align="center"><input class="btn" type="submit" name="bt" value="로그인"></input></td>
+          <td class="btn1" align ="center"><a href="#">IP보안</a><input type="button" class="ipBtn"name="ipBtn" value="OFF"></input></td>
+        </tr><tr>
+          <td style="width:100px; height:0px;"><input class="txtBox" type="password" name="user_pass" placeholder="비밀번호"></input></td>
+          <td class="btn1" align ="center"><a href="#">일회용로그인</a></td>
+        </tr><tr>
+          <td colspan="3" style="padding-top:7px; padding-bottom:0px;"> <input type="checkbox" name="uzi" value="on" style="vertical-align:middle">
+            로그인 상태유지</input> &nbsp&nbsp <a href="naverForm.html">회원가입</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a href="#">아이디</a>/<a href="#">비밀번호 찾기</a></td>
+        </tr></table></form>
+      </tr></td></table>
+   </body>
+</html>

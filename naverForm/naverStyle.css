@@ -1,0 +1,25 @@
+
+body{background-color: #f5f6f8; color: #999ca2;}
+table{
+  font-size: 15px;
+  font-family: 굴림;
+}
+.big{
+  background-color: #f5f6f8;
+  width: 465px;
+}
+.firstT,.secondT,.thirdT{
+  background: white;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+}
+#joinbtn{width: 100%; height:45pt; background-color:#2bb600; font-size: 15pt; color: #e8e9eb;}
+.forthT{padding: 0px;width: 100%;}
+td{padding: 0px;}
+input{height: 45px; border: none; }
+.button{border-style: solid; border-width: thin; background-color: white; border-color: #d2d3d6; }
+
+a:link { color: #625e5e; text-decoration: none;}
+a:visited { color: #625e5e; text-decoration: none;}
+a:hover { color: #625e5e; text-decoration: underline;}
